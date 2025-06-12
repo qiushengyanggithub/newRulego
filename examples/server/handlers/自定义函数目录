@@ -1,0 +1,7 @@
+	//在server.go中的第95行后注册自定义函数
+	// 注册自定义函数
+    	action.Functions.Register("Modbus-Read", handlers.ModbusTCP_Read)       // 注册自定义函数读取单寄存器
+    	action.Functions.Register("Modbus-Write", handlers.ModbusTCP_Write)     // 注册自定义函数写入单寄存器
+    	action.Functions.Register("SMART200-Read", handlers.S7_SMART200_Read)   // 注册自定义函数读取S7-SMART200数据
+    	action.Functions.Register("SMART200-Write", handlers.S7_SMART200_Write) // 注册自定义函数写入S7-SMART200数据
+

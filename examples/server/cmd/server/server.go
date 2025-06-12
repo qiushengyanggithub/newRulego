@@ -19,6 +19,7 @@ package main
 import (
 	"examples/server/config"
 	"examples/server/config/logger"
+	"examples/server/handlers"
 	"examples/server/internal/router"
 	"examples/server/internal/service"
 	"flag"
@@ -103,6 +104,16 @@ func main() {
 	if err != nil {
 		log.Fatal("error:", err)
 	}
+
+	////起点
+	// 注册自定义函数和注册自定义函数和组件
+	handlers.RegisterCustomComponentsAndFunctions()
+
+	//运行modbusTCP&数据库表服务
+	//handlers.Main()
+	//初始化服务
+	////终点
+
 	//启动http服务
 	if err := ep.Start(); err != nil {
 		log.Fatal("error:", err)
