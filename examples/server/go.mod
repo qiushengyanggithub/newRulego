@@ -6,14 +6,19 @@ toolchain go1.23.7
 
 require (
 	github.com/dop251/goja v0.0.0-20231024180952-594410467bc6
+	github.com/go-sql-driver/mysql v1.8.1
+	github.com/goburrow/modbus v0.1.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
+	github.com/jinzhu/gorm v1.9.16
 	github.com/mark3labs/mcp-go v0.18.0
+	github.com/robinson/gos7 v0.0.0-20241205073040-7ea1d6fb9d20
 	github.com/rulego/rulego v0.31.2-0.20250612094750-983c0c1a3a48
 	github.com/rulego/rulego-components v0.31.1-0.20250612101808-b523376347b3
 	github.com/rulego/rulego-components-ai v0.31.1
 	github.com/rulego/rulego-components-ci v0.31.1-0.20250602161121-89f21f4c54fe
 	github.com/rulego/rulego-components-etl v0.29.1-0.20250602160310-2d30a072f03b
 	github.com/rulego/rulego-components-iot v0.29.1-0.20250604064742-4832b0c010d7
+	github.com/shopspring/decimal v1.2.0
 	gopkg.in/ini.v1 v1.67.0
 )
 
@@ -67,7 +72,6 @@ require (
 	github.com/go-mysql-org/go-mysql v1.11.0 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
-	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/goburrow/serial v0.1.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/gofrs/uuid/v5 v5.0.0 // indirect
@@ -89,6 +93,7 @@ require (
 	github.com/jcmturner/gokrb5/v8 v8.4.4 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jhump/protoreflect v1.16.0 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jmespath/go-jmespath v0.3.0 // indirect
 	github.com/julienschmidt/httprouter v1.3.0 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
@@ -130,7 +135,6 @@ require (
 	github.com/savsgio/gotils v0.0.0-20240704082632-aef3928b8a38 // indirect
 	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3 // indirect
 	github.com/shirou/gopsutil/v4 v4.25.5-0.20250517063057-34ac457e154c // indirect
-	github.com/shopspring/decimal v1.2.0 // indirect
 	github.com/siddontang/go-log v0.0.0-20180807004314-8d05993dda07 // indirect
 	github.com/simonvetter/modbus v1.6.3 // indirect
 	github.com/skeema/knownhosts v1.3.1 // indirect
